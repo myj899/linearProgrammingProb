@@ -1,0 +1,4 @@
+matplotlib==2.0.0
+tkinter==8.5
+numpy==1.12.1
+sympy==1.0
