@@ -3,7 +3,7 @@ FROM python:3
 LABEL maintainer="Julie Jung <myj899@gmail.com>"
 
 # copy our application code
-ADD ./ /
+ADD ./src /
 
 # fetch app specific deps
 RUN pip install -r requirements.txt
