@@ -60,14 +60,14 @@ Let's try to solve this feasible linear programming problem, [Two Mines Problem]
 This problem can be translated into a Linear Programming formulation as below:
 
 ```math
-  min 180x + 160y
-	s.t.
-    	6x + y >= 12
-    	3x + y >= 8
-    	4x + 6y >= 24
-    	x <= 5
-    	y <= 5
-    	x,y >= 0
+min 180x + 160y
+s.t.
+  6x + y >= 12
+  3x + y >= 8
+  4x + 6y >= 24
+  x <= 5
+  y <= 5
+  x,y >= 0
 ```
 
 ![RecGuest](./readmeImgs/rec-guest.gif)
