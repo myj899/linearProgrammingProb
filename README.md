@@ -59,7 +59,7 @@ Let's try to solve this feasible linear programming problem, [Two Mines Problem]
 
 This problem can be translated into a Linear Programming formulation as below:
 
-```math
+```sh
 min 180x + 160y
 s.t.
   6x + y >= 12
