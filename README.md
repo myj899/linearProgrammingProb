@@ -49,11 +49,11 @@ Let's try to solve this feasible linear programming problem, [Two Mines Problem]
 
 > The Two Mines Company own two different mines that produce an ore which, after being crushed, is graded into three classes: high, medium and low-grade. The company has contracted to provide a smelting plant with 12 tons of high-grade, 8 tons of medium-grade and 24 tons of low-grade ore per week. The two mines have different operating characteristics as detailed below.
 
-| Mine | Cost per day (£'000) | Production (tons/day) |
-| ---- | -------------------- | --------------------- |
+| Mine | Cost per day (£'000) | Production (tons/day) |        |     |
+| ---- | -------------------- | --------------------- | ------ | --- |
 |      |                      | High                  | Medium | Low |
-| x    | 180                  | 6                     | 3 | 4 |
-| y    | 160                  | 1                     | 1 | 6 |
+| x    | 180                  | 6                     | 3      | 4   |
+| y    | 160                  | 1                     | 1      | 6   |
 
 > How many days per week should each mine be operated to fulfil the smelting plant contract?
 
