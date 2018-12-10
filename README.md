@@ -11,7 +11,6 @@ LPS is a user friendly mathematical tool for solving linear programming problems
    1. [Installing Dependencies](#installing-dependencies)
    1. [Development Environment](#development-environment)
 1. [Demonstration](#demonstration)
-1. [Styling](#styling)
 1. [Licensing](#licensing)
 
 ## Built With
@@ -49,20 +48,12 @@ Let's try to solve this feasible linear programming problem, [Two Mines Problem]
 
 > The Two Mines Company own two different mines that produce an ore which, after being crushed, is graded into three classes: high, medium and low-grade. The company has contracted to provide a smelting plant with 12 tons of high-grade, 8 tons of medium-grade and 24 tons of low-grade ore per week. The two mines have different operating characteristics as detailed below.
 
-| Mine | Cost per day (£'000) | Production (tons/day) |        |     |
-| ---- | -------------------- | --------------------- | ------ | --- |
-|      |                      | High                  | Medium | Low |
-| x    | 180                  | 6                     | 3      | 4   |
-| y    | 160                  | 1                     | 1      | 6   |
-
-| | Grouping ||
-First Header | Second Header | Third Header |
------------- | :-----------: | -----------: |
-Content | _Long Cell_ ||
-Content | **Cell** | Cell |
-
-New section | More | Data |
-And more | With an escaped '\|' ||
+```
+Mine    Cost per day (£'000)    Production (tons/day)
+                                High    Medium    Low
+X       180                     6       3         4
+Y       160                     1       1         6
+```
 
 > How many days per week should each mine be operated to fulfil the smelting plant contract?
 
@@ -79,27 +70,25 @@ s.t.
   x,y >= 0
 ```
 
-![RecGuest](./readmeImgs/rec-guest.gif)
-![RecUser](./readmeImgs/rec-user.gif)
+Let's insert the formula into the application's Editor tab.
 
-Once the user signs in, the recommendations changes according to the user's city of residence.
+After launching the application, the user can follow the steps provided on the Editor tab. First, the user must provide the number of variables and problem type. After inputting the information, the screen will show up as below.
+![Init](./readmeImgs/init.png)
 
-![Search1](./readmeImgs/search-cookingsteak.gif)
-![Search2](./readmeImgs/search-cookingsteakforbeginners.gif)
+Next, the user must input the parameters for the objective function in the Workspace tab.
+![ObjFun](./readmeImgs/objfun.png)
 
-MentorMatch can conduct O(1) search with the power of Redisearch and its inverted indexing methods.
+Once the user toggles back to the Editor tab, the user can now specify the number of constraints.
+![BeforeConstraint](./readmeImgs/beforeConstraint.png)
 
-![UserProfile](./readmeImgs/userProfile.gif)
+Then the user can go back to the Workspace tab to insert the parameters in the constraints. The user can import csv files of the constraints, or manually input them.
+![Workspace](./readmeImgs/workspace.png)
 
-Users can navigate through their profile page for previously booked lessons, upcoming lessons, and lessons that they offer.
+Finally, the user can go back to the Editor tab to press "Solve" to calculate the feasible optimal solution of the problem with the values of the variables.
+![Solve](./readmeImgs/solve.png)
 
-![LessonDetails](./readmeImgs/lessonDetails.gif)
-
-Every lesson has a lesson details page where the user can view information on the lesson, the mentor, and the reviews by other users who have taken the lesson in the past.
-
-## Styling
-
-MentorMatch uses the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/).
+The user can now view the graphical representation of the problem under the Graph tab.
+![Graph](./readmeImgs/graph.png)
 
 ## Licensing
 
