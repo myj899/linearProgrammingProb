@@ -1053,5 +1053,3 @@ def csvToMatrix(filename):
 				if numrow!=[]:data.append(numrow)
 		matrix = np.array(data)
 		return matrix
-
-#print(csvToMatrix('/Users/juliejung/Dropbox/College/S17/112/TP/TP1/data.csv'))
