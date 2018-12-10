@@ -55,11 +55,6 @@ Let's try to solve this feasible linear programming problem, [Two Mines Problem]
 | x    | 180                  | 6                     | 3 | 4 |
 | y    | 160                  | 1                     | 1 | 6 |
 
-Mine Cost per day (£'000) Production (tons/day)  
- High Medium Low
-X 180 6 3 4
-Y 160 1 1 6
-
 > How many days per week should each mine be operated to fulfil the smelting plant contract?
 
 ![RecGuest](./readmeImgs/rec-guest.gif)
