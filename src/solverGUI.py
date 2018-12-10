@@ -8,7 +8,7 @@ import math
 import copy
 
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2TkAgg
-#from matplotlib.figure import Figure
+
 import tkinter as tk
 from tkinter import ttk
 from simplex import Simplex
@@ -1036,10 +1036,6 @@ class BoolTableInput(tk.Frame):
 				self.bell()
 				return False
 		return False	
-		
-root = tk.Tk()
-app = SolverGUI(root)
-root.mainloop()
 
 def csvToMatrix(filename):
 		with open(filename) as f:

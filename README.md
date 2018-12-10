@@ -1,6 +1,6 @@
 # LPS
 
-LPS is a user friendly mathematical tool for solving
+LPS is a user friendly mathematical tool for solving linear programming problems exclusively for feasible solutions. The program implements the simplex algorithm using the numpy module to handle matrices to build the backbone of the solver. The main algorithm is based on the standard form, (maximization problem), and the duality of simplex is used to optimize minization problems. The algorithm does not handle infeasible and infinite solutions.
 
 ![Main](./readmeImgs/landingScreenshot.png)
 
@@ -12,7 +12,6 @@ LPS is a user friendly mathematical tool for solving
    1. [Development Environment](#development-environment)
 1. [Screenshots](#screenshots)
 1. [Styling](#styling)
-1. [Contributing](#contributing)
 1. [Licensing](#licensing)
 
 ## Built With
@@ -26,7 +25,15 @@ LPS is a user friendly mathematical tool for solving
 
 ### Installing Dependencies
 
-You must install Docker to be able to run this application. Please reference [Docker](https://www.docker.com/) on the installation procedure.
+You must install these dependencies using pip:
+
+- [**matplotlib**](https://matplotlib.org/faq/installing_faq.html)
+- [**numpy**](https://scipy.org/install.html)
+- [**sympy**](https://scipy.org/install.html)
+
+```sh
+pip install numpy
+```
 
 ### Development Environment
 
@@ -59,10 +66,6 @@ Every lesson has a lesson details page where the user can view information on th
 ## Styling
 
 MentorMatch uses the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/).
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ## Licensing
 
