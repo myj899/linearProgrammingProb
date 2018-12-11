@@ -92,4 +92,4 @@ The user can now view the graphical representation of the problem under the Grap
 
 ## Licensing
 
-MentorMatch uses the [MIT License](LICENSE.md)
+LPS uses the [MIT License](LICENSE.md)
